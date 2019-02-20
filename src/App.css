@@ -1,54 +1,278 @@
 .App {
+  width: 100%;
+    background-color: #BACBDC;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1510px;
+  overflow: hidden;
+  background-color: aqua;
+  margin: auto;
+}
+
+.logo_contacts {
+  width: 100%;
+  max-width: 1510px;
+  background-color: white;
+  position: relative;
+  height: 175px;
+}
+.contacts {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  max-width: 1510px;
+  height: 50px;
+  color: black;
+}
+.contacts_text {
+  display: flex;
+  width: 25vw;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 1.2vw;
+  padding-right: 50px;
+  padding-top: 50px;
+  
+}
+
+.menu_tab {
+  display: table;
+  width: 35vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 1.2vw;
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  margin-right: 8vw;
+}
+
+.it {
+  display: table-cell;
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.line {
+  text-decoration: none;
+  color: #000000;
+}
+  
+a.line:hover {
+      border-top: 2px solid black;
+      transition-property: all;
+      transition-duration: 200ms;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  transform: rotate(-45deg);
+  position: relative;
+  margin-left: 125px;
+  margin-top: 135px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.logo_logo {
+font-family: 'Puritan', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: 32px;
+font-size: 24px;
+letter-spacing: 0.1em;
+  color: black;
+  
 }
-
 .romb {
-  width: 50px;
-  height: 50px;
+  margin-left: 5vw;
+  width: 250px;
+  height: 250px;
+  background: #BA9898;
   transform: rotate(45deg);
-  color: black;  
-  animation: romb-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;    
+  margin-top: -150px;    
+  position: absolute;
 }
 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+
+.raspisanie {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 450px;
+  height: 270px;
+background: white;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+text-align: center;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 25px;
+margin-bottom: 30px;
+}
+.raspisanie_fon {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.35),rgba(186, 203, 220, 0.65));
+  z-index: 4;
 }
 
-@keyframes romb-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rombiki_raspisanie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
+.rombiki_raspisanie1 {
+  position: relative;
+  margin: 15px;
+  transform: rotate(45deg);
+  width: 10px;
+  height: 10px;
+  background-color: #BA9898;
+}
+.rombiki_raspisanie2 {
+  margin: -5px;
+  transform: rotate(45deg);
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: #BACBDC;
+}
+.rombiki_raspisanie3 {
+  display: flex;
+  margin: -5px;
+  transform: rotate(45deg);
+  width: 15px;
+  height: 15px;
+  background-color:white;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  position: relative;
+}
+.rombiki_raspisanie3_1 {
+  width: 7px;
+  height: 7px;
+  background-color:#432132;
+  
+}
+.rombiki_raspisanie4 {
+  margin: 5px;
+  transform: rotate(45deg);
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: #432132;
+  z-index: 2;
+  top: -5px;
+}
+.rombiki_raspisanie5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 5px;
+  transform: rotate(45deg);
+  width: 44px;
+  height: 44px;
+  background-color:white;
+  top: -15px;
+  z-index: 2;
+}
+.rombiki_raspisanie5_1 {
+  position: absolute;
+  width: 35px;
+  height: 35px;
 
+  background-color:#435465;
+}
+.rombiki_raspisanie6 {
+  transform: rotate(45deg);
+  width: 38px;
+  height: 38px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  top: -20px;
+}
+.rombiki_raspisanie6_1 {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  background-color: #432132;
+  z-index: 4;
+}
+.rombiki_raspisanie7 {
+  margin: 5px;
+  transform: rotate(45deg);
+      width: 22px;
+      height: 22px;
+      background-color:#778798;
+      position: relative;
+      z-index: 2;
+      top: -25px;
+}
+.rombiki_raspisanie8 {
+  position: relative;
+   transform: rotate(45deg);
+   width: 10px;
+   height: 10px;
+   background-color: #432132;
+   top: -15px;
+}
+.rombiki_raspisanie_text {
+  position: relative;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+width: 300px;
+z-index: 4;
+}
+.yrok_raspisanie {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 315px;
+  height: 150px;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.rombiki_raspisanie_mesiac {
+  position: relative;
+  top: -45px;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  text-align: right;
+  text-decoration-line: underline;
+  }
