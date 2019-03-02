@@ -13,7 +13,7 @@ class App extends Component {
 
 <div className="romb">
     <div className="logo">
-    <div><img href="public/img/mark3.svg" alt="logo" width="73px" height="73px"/></div>
+    <div><img src="/img/mark3.svg" alt="logo" width="73px" height="73px"/></div>
     <div className="logo_logo">NORN</div>       
 </div></div>
 
@@ -28,9 +28,9 @@ class App extends Component {
                     
                  <div className="contacts_text">
                 <div>+ 7 893 567 78 67</div>
-                <div><a href=""><img url="public/img/instagram_black.svg" alt="instagram" width="20px" height="20px"/></a></div>
-                <div><a href=""><img url="public/img/vk_black.svg" alt="vk" width="28px" height="28px"/></a></div>
-                <div><a href=""><img url="public/img/facebook_black.svg" alt="facebook" width="20px" height="20px"/></a></div>
+                <div><a href=""><img src="/img/instagram_black.svg" alt="instagram" width="20px" height="20px"/></a></div>
+                <div><a href=""><img src="/img/vk_black.svg" alt="vk" width="28px" height="28px"/></a></div>
+                <div><a href=""><img src="/img/facebook_black.svg" alt="facebook" width="20px" height="20px"/></a></div>
             </div>  
                         
     </div>
@@ -44,25 +44,25 @@ class App extends Component {
     <div className="text_norv_kub">НОРВЕЖСКИЙ</div>
     <div className="text_norv_kub_2">
         <a className="test" href="">Пройти входное тестирование</a>
-        <div className="strelka"><img url="public/img/arrow_black.svg" alt="arrow" width="20px" height="26px"/></div></div>
+        <div className="strelka"><img src="/img/arrow_black.svg" alt="arrow" width="20px" height="26px"/></div></div>
     </div>
 </div>
 
 
 <div className="romb_islan">   
-    <div className="foto_islan"><img url="public/img/img_reykjavik.png" alt="reykjavik" width="255px" height="255px"/></div>    
+    <div className="foto_islan"><img src="/img/img_reykjavik.png" alt="reykjavik" width="255px" height="255px"/></div>    
     <div className="text_yaziki_romb">ИСЛАНСКИЙ</div>
 </div> 
 <div className="romb_shved">
-        <div className="foto_shved"><img url="public/img/img_stokgolm.png" alt="stokgolm" width="255px" height="255px"/></div>
+        <div className="foto_shved"><img src="/img/img_stokgolm.png" alt="stokgolm" width="255px" height="255px"/></div>
     <div className="text_yaziki_romb">ШВЕДСКИЙ</div>
 </div> 
 <div className="romb_fin">
-        <div className="foto_fin"><img url="public/img/img_helsinki.png" alt="helsinki" width="255px" height="255px"/></div>
+        <div className="foto_fin"><img src="/img/img_helsinki.png" alt="helsinki" width="255px" height="255px"/></div>
     <div className="text_yaziki_romb">ФИНСКИЙ</div>
 </div> 
 <div className="romb_dat">
-        <div className="foto_dat"><img url="public/img/img_kopengagen.png" alt="kopengagen" width="255px" height="255px"/></div>
+        <div className="foto_dat"><img src="/img/img_kopengagen.png" alt="kopengagen" width="255px" height="255px"/></div>
     <div className="text_yaziki_romb">ДАТСКИЙ</div>
 </div> 
 <div className="romb_bordo"></div>
@@ -79,14 +79,14 @@ class App extends Component {
             <div className="tex_yrovni">ВЫБЕРЕТЕ ВАШ УРОВЕННЬ ВЛАДЕНИЯ ЯЗЫКОМ</div>
             <div className="flex_yrovni">
                 <div className="yrovni">
-                    <div className="znachki"><img url="public/img/rombik_white.svg" alt="rombik" width="30px" height="30px"/></div>
+                    <div className="znachki"><img src="/img/rombik_white.svg" alt="rombik" width="30px" height="30px"/></div>
                 <div className="flex_yrovni_text">
                     <div className="text_yrovni_vubor">Начинающий (A1)</div>
                     <div className="text_yrovni_vubor2">Можете достаточно свободно общаться на английском на отвлеченные темы, способны взаимодействовать с носителями языка без напряжения для каждой из сторон</div>
                 </div>
                 </div>
                 <div className="yrovni">
-                        <div className="znachki"><img url="public/img/rombik_prozrachnyi.svg" alt="rombik" width="30px" height="30px"/></div>
+                        <div className="znachki"><img src="/img/rombik_prozrachnyi.svg" alt="rombik" width="30px" height="30px"/></div>
                     <div className="flex_yrovni_text">
                         <div className="text_yrovni_vubor">Начинающий (A2)</div>
                         <div className="text_yrovni_vubor2">В состоянии написать связное сообщение 
@@ -94,7 +94,7 @@ class App extends Component {
                     </div>
                     </div>
                     <div className="yrovni">
-                            <div className="znachki"><img url="public/img/rombik_prozrachnyi.svg" alt="rombik" width="30px" height="30px"/></div>
+                            <div className="znachki"><img src="/img/rombik_prozrachnyi.svg" alt="rombik" width="30px" height="30px"/></div>
                         <div className="flex_yrovni_text">
                             <div className="text_yrovni_vubor">Продолжающий (B1)</div>
                             <div className="text_yrovni_vubor2">Свободно смотрите большинство англоязычных телепрограмм: интервью, репортажи, ток-шоу, прямые трансляции
@@ -102,7 +102,7 @@ class App extends Component {
                         </div>
                         </div>
                         <div className="yrovni">
-                                <div className="znachki"><img url="public/img/rombik_prozrachnyi.svg" alt="rombik" width="30px" height="30px"/></div>
+                                <div className="znachki"><img src="/img/rombik_prozrachnyi.svg" alt="rombik" width="30px" height="30px"/></div>
                             <div className="flex_yrovni_text">
                                 <div className="text_yrovni_vubor">Продолжающий (B2)</div>
                                 <div className="text_yrovni_vubor2">Способны понять суть сложного текста на конкретную или абстрактную тему, готовы поддержать обстоятельную беседу 
@@ -110,7 +110,7 @@ class App extends Component {
                             </div>
                             </div>
                             <div className="yrovni">
-                                    <div className="znachki"><img url="public/img/rombik_dvoinoi.svg" alt="rombik" width="65px" height="45px"/></div>
+                                    <div className="znachki"><img src="/img/rombik_dvoinoi.svg" alt="rombik" width="65px" height="45px"/></div>
                                 <div className="flex_yrovni_text">
                                     <div className="text_yrovni_vubor">Продвинутый (C1)</div>
                                     <div className="text_yrovni_vubor2">Умеете выстраивать ясные и подробные высказывания по широкому кругу вопросов; можете изложить свой взгляд на проблему, указать на преимущества и недостатки 
@@ -120,7 +120,7 @@ class App extends Component {
                                 </div>
                                 </div>
                                 <div className="yrovni">
-                                        <div className="znachki"><img url="public/img/rombik_prozrachnyi.svg" alt="rombik" width="30px" height="30px"/></div>
+                                        <div className="znachki"><img src="/img/rombik_prozrachnyi.svg" alt="rombik" width="30px" height="30px"/></div>
                                     <div className="flex_yrovni_text">
                                         <div className="text_yrovni_vubor">Продвинутый (C2)</div>
                                         <div className="text_yrovni_vubor2">Умеете выстраивать ясные и подробные высказывания по широкому кругу вопросов; можете изложить свой взгляд на проблему, указать на преимущества и недостатки 
@@ -130,7 +130,7 @@ class App extends Component {
                                     </div>
                                     </div>
             </div>
-        <img url="/public/img/img_foto_fon.png" alt="fon"/>
+      
     </div>
 
     <div className="container_raspisanie">
@@ -298,7 +298,7 @@ class App extends Component {
 <div className="footer">
 <div className="romb_footer"></div>
 <div className="romb_footer_logo">
-<img url="./public/img/mark3_white.svg" alt="logo" width="61px" height="61px"/>
+<img src="/img/mark3_white.svg" alt="logo" width="61px" height="61px"/>
 <div className="tex_foter"> NORN<br/>
 школа скандинавских языков</div>
 </div>
