@@ -298,7 +298,7 @@ width: 100%;
   min-height: 850px;
   height: 1px;
   background: linear-gradient(181.22deg, #FFFFFF 1.81%, rgba(255, 255, 255, 0.91) 9.04%, rgba(255, 255, 255, 0.41) 31.96%, rgba(160, 166, 173, 0.646) 37.7%, #112132 98.19%), 
-  url(/public/img/img_foto_fon.png);
+  url(/img/img_foto_fon.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
