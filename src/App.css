@@ -7,7 +7,6 @@
   width: 100%;
   max-width: 1510px;
   overflow: hidden;
-  background-color: aqua;
   margin: auto;
 }
 .logo_contacts {
@@ -139,8 +138,10 @@ a.test:hover {
   align-items: center;
   top: 13vw;
   left: 25vw;
+}
 
-
+.romb_norv:hover {
+  transform: rotate(45deg) scale(1.07);
 }
 .romb_norv_flex {
   width: 13vw;
@@ -200,6 +201,9 @@ margin-top: 1vw;
   left: 36vw;
   top: -11vw;
 }
+.romb_islan:hover {
+  transform: rotate(45deg) scale(1.07);
+}
 .foto_islan {
   position: relative;
   transform: rotate(-45deg);
@@ -219,6 +223,10 @@ margin-top: 1vw;
   top: -13vw;
 
 }
+.romb_shved:hover {
+  transform: rotate(45deg) scale(1.07);
+}
+
 .foto_shved {
   position: relative;
   transform: rotate(-45deg);
@@ -236,6 +244,10 @@ margin-top: 1vw;
   left: 58vw;
   top: -37vw;
 }
+.romb_fin:hover {
+  transform: rotate(45deg) scale(1.07);
+}
+
 .foto_fin {
   position: relative;
   transform: rotate(-45deg);
@@ -252,6 +264,9 @@ margin-top: 1vw;
   align-items: center;
   left: 81vw;
   top: -50vw;
+}
+.romb_dat:hover {
+  transform: rotate(45deg) scale(1.07);
 }
 .foto_dat {
   position: relative;
@@ -337,6 +352,10 @@ margin-left: 10px;
 margin-right: 10px;
 margin-top: 20px;
 margin-bottom: 20px;
+}
+.yrovni:hover {
+  transform: scale(1.05);
+  background: rgba(0, 0, 0, 0.7);
 }
 .znachki {
   margin: 10px;
@@ -588,6 +607,11 @@ height: 65px;
 border: 1px solid #FFFFFF;
 box-sizing: border-box;
 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.flex_zapis:hover {
+  transform: scale(1.05);
+  border: 2px solid #FFFFFF;
 }
 .flex_zapis_text {
   display: flex;
