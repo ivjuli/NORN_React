@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Header from './components/Header/Header';
+import Rombiki from './components/Rombiki/Rombiki';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 
@@ -9,32 +12,8 @@ class App extends Component {
      <div className="App">
        
        <div className="wrapper">
-       <div className="logo_contacts">
+       <Header/>
 
-<div className="romb">
-    <div className="logo">
-    <div><img src="/img/mark3.svg" alt="logo" width="73px" height="73px"/></div>
-    <div className="logo_logo">NORN</div>       
-</div></div>
-
-        <div className="contacts">
-               
-                        <ul className="menu_tab">
-                        <li className="it"><a href="" className="line">КУРСЫ</a></li>
-                        <li className="it"><a href="" className="line">О НАС</a></li>
-                        <li className="it"><a href="" className="line">ЛЕТНЯЯ ШКОЛА</a></li>
-                        <li className="it"><a href="" className="line">КОНТАКТЫ</a></li>  
-                        </ul>
-                    
-                 <div className="contacts_text">
-                <div>+ 7 893 567 78 67</div>
-                <div><a href=""><img src="/img/instagram_black.svg" alt="instagram" width="20px" height="20px"/></a></div>
-                <div><a href=""><img src="/img/vk_black.svg" alt="vk" width="28px" height="28px"/></a></div>
-                <div><a href=""><img src="/img/facebook_black.svg" alt="facebook" width="20px" height="20px"/></a></div>
-            </div>  
-                        
-    </div>
-    </div>
 <div className="container_yaziki">
         <div className="text_yaziki"><p>КАКОЙ ЯЗЫК<br/>ХОТИТЕ ИЗУЧАТЬ?</p></div>
 
@@ -139,19 +118,7 @@ class App extends Component {
     <div className="flex_raspisanie">
             <div className="raspisanie">
                     <div className="raspisanie_fon"></div>
-                    <div className="rombiki_raspisanie">
-                    <div className="rombiki_raspisanie1"></div>
-                    <div className="rombiki_raspisanie2">
-                    <div className="rombiki_raspisanie2_1"></div></div>
-                    <div className="rombiki_raspisanie3"> 
-                    <div className="rombiki_raspisanie3_1"></div></div>
-                    <div className="rombiki_raspisanie4"></div>
-                    <div className="rombiki_raspisanie5">
-                    <div className="rombiki_raspisanie5_1"></div></div>
-                    <div className="rombiki_raspisanie6">
-                    <div className="rombiki_raspisanie6_1"></div></div>
-                    <div className="rombiki_raspisanie7"></div>
-                    <div className="rombiki_raspisanie8"></div></div>
+                    <Rombiki/>
                     <div className="rombiki_raspisanie_text">
                     <div className="yrok_raspisanie">
                     <div className="effekt_raspisanie">05.02 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;исландский А1</div>
@@ -163,19 +130,7 @@ class App extends Component {
 
             <div className="raspisanie">
                     <div className="raspisanie_fon"></div>
-                    <div className="rombiki_raspisanie">
-                    <div className="rombiki_raspisanie1"></div>
-                    <div className="rombiki_raspisanie2">
-                    <div className="rombiki_raspisanie2_1"></div></div>
-                    <div className="rombiki_raspisanie3"> 
-                    <div className="rombiki_raspisanie3_1"></div></div>
-                    <div className="rombiki_raspisanie4"></div>
-                    <div className="rombiki_raspisanie5">
-                    <div className="rombiki_raspisanie5_1"></div></div>
-                    <div className="rombiki_raspisanie6">
-                    <div className="rombiki_raspisanie6_1"></div></div>
-                    <div className="rombiki_raspisanie7"></div>
-                    <div className="rombiki_raspisanie8"></div></div>
+                    <Rombiki/>
                     <div className="rombiki_raspisanie_text">
                     <div className="yrok_raspisanie">
                     <div className="effekt_raspisanie">05.03 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;датский  А1</div>
@@ -189,19 +144,7 @@ class App extends Component {
 
             <div className="raspisanie">
                     <div className="raspisanie_fon"></div>
-                    <div className="rombiki_raspisanie">
-                    <div className="rombiki_raspisanie1"></div>
-                    <div className="rombiki_raspisanie2">
-                    <div className="rombiki_raspisanie2_1"></div></div>
-                    <div className="rombiki_raspisanie3"> 
-                    <div className="rombiki_raspisanie3_1"></div></div>
-                    <div className="rombiki_raspisanie4"></div>
-                    <div className="rombiki_raspisanie5">
-                    <div className="rombiki_raspisanie5_1"></div></div>
-                    <div className="rombiki_raspisanie6">
-                    <div className="rombiki_raspisanie6_1"></div></div>
-                    <div className="rombiki_raspisanie7"></div>
-                    <div className="rombiki_raspisanie8"></div></div>
+                    <Rombiki/>
                     <div className="rombiki_raspisanie_text">
                     <div className="yrok_raspisanie">
                     <div className="effekt_raspisanie">05.04 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;шведский А1</div>
@@ -215,19 +158,7 @@ class App extends Component {
 
             <div className="raspisanie">
                     <div className="raspisanie_fon"></div>
-                    <div className="rombiki_raspisanie">
-                    <div className="rombiki_raspisanie1"></div>
-                    <div className="rombiki_raspisanie2">
-                    <div className="rombiki_raspisanie2_1"></div></div>
-                    <div className="rombiki_raspisanie3"> 
-                    <div className="rombiki_raspisanie3_1"></div></div>
-                    <div className="rombiki_raspisanie4"></div>
-                    <div className="rombiki_raspisanie5">
-                    <div className="rombiki_raspisanie5_1"></div></div>
-                    <div className="rombiki_raspisanie6">
-                    <div className="rombiki_raspisanie6_1"></div></div>
-                    <div className="rombiki_raspisanie7"></div>
-                    <div className="rombiki_raspisanie8"></div></div>
+                    <Rombiki/>
                     <div className="rombiki_raspisanie_text">
                     <div className="yrok_raspisanie">
                     <div className="effekt_raspisanie">05.05 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;норвежский А1</div>
@@ -240,19 +171,7 @@ class App extends Component {
 
             <div className="raspisanie">
                     <div className="raspisanie_fon"></div>
-                    <div className="rombiki_raspisanie">
-                    <div className="rombiki_raspisanie1"></div>
-                    <div className="rombiki_raspisanie2">
-                    <div className="rombiki_raspisanie2_1"></div></div>
-                    <div className="rombiki_raspisanie3"> 
-                    <div className="rombiki_raspisanie3_1"></div></div>
-                    <div className="rombiki_raspisanie4"></div>
-                    <div className="rombiki_raspisanie5">
-                    <div className="rombiki_raspisanie5_1"></div></div>
-                    <div className="rombiki_raspisanie6">
-                    <div className="rombiki_raspisanie6_1"></div></div>
-                    <div className="rombiki_raspisanie7"></div>
-                    <div className="rombiki_raspisanie8"></div></div>
+                    <Rombiki/>
                     <div className="rombiki_raspisanie_text">
                     <div className="yrok_raspisanie">
                             <div className="effekt_raspisanie">05.06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;финский В1</div>
@@ -265,19 +184,7 @@ class App extends Component {
 
             <div className="raspisanie">
                     <div className="raspisanie_fon"></div>
-                    <div className="rombiki_raspisanie">
-                    <div className="rombiki_raspisanie1"></div>
-                    <div className="rombiki_raspisanie2">
-                    <div className="rombiki_raspisanie2_1"></div></div>
-                    <div className="rombiki_raspisanie3"> 
-                    <div className="rombiki_raspisanie3_1"></div></div>
-                    <div className="rombiki_raspisanie4"></div>
-                    <div className="rombiki_raspisanie5">
-                    <div className="rombiki_raspisanie5_1"></div></div>
-                    <div className="rombiki_raspisanie6">
-                    <div className="rombiki_raspisanie6_1"></div></div>
-                    <div className="rombiki_raspisanie7"></div>
-                    <div className="rombiki_raspisanie8"></div></div>
+                    <Rombiki/>
                     <div className="rombiki_raspisanie_text">
                     <div className="yrok_raspisanie">
                             <div className="effekt_raspisanie">05.07 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;исландский С2</div>
@@ -295,40 +202,8 @@ class App extends Component {
                             </div>
                            </div> </div> </div>
    </div>
-<div className="footer">
-<div className="romb_footer"></div>
-<div className="romb_footer_logo">
-<img src="/img/mark3_white.svg" alt="logo" width="61px" height="61px"/>
-<div className="tex_foter"> NORN<br/>
-школа скандинавских языков</div>
-</div>
-<div className="tex_foter footer_tex"> 
-<p>199983, Санкт-Петербург<br/>
-ул. Казанская, 32, БЦ “Успех”, 7 этаж<br/>
-c 10:00 до 22:00 с ПН по СБ</p>
-    
-<p>orn@gmail.com<br/>
-+ 7 893 567 78 67</p>
-</div>
-<div className="flex_text_footer">
-<div className="tex_foter line_height">
-<div className="margin">Шведский язык</div>
-<div className="margin">Норвежский язык</div>
-<div className="margin">Исландский язык</div>
-<div className="margin">Финский язык</div>
-<div className="margin">Датский язык</div>
-<div className="margin">Тестирование</div>
-<div className="margin">Формы обучения</div>
-</div>
-<div className="tex_foter line_height">
-<div className="margin">Аудитории</div>
-<div className="margin">Преподаватели</div>
-<div className="margin">Летняя школа</div>
-<div className="margin">Отзывы</div>
-<div className="margin">Политика<br/>конфиденциальности</div>
-<div className="margin">FAQ</div>
-</div>
-</div> </div> </div></div>
+<Footer/>
+</div></div>
 
 
     );
