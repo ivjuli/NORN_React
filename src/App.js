@@ -18,61 +18,15 @@ const language = await getAllLanguage();
 this.setState({language})
 }
 
-renderData_2 =  () => {
+renderData =  (i) => {
+        let idm = i;
         return this.props.language.map((el, ind) => {
-        while (el.idMonth == 2){
-        return (
-        <div><li className="spisok">{el.startData}</li><li className="spisok">{el.namelanguage}</li><li className="spisok">{el.level}</li></div>
-        ) 
-}}
-)}
-
-renderData_3 =  () => {
-        return this.props.language.map((el, ind) => {
-        while (el.idMonth == 3){
-        return (
-        <div><li className="spisok">{el.startData}</li><li className="spisok">{el.namelanguage}</li><li className="spisok">{el.level}</li></div>
-        ) 
-}}
-)}
-
-renderData_4 =  () => {
-        return this.props.language.map((el, ind) => {
-        while (el.idMonth == 4){
-        return (
-        <div><li className="spisok">{el.startData}</li><li className="spisok">{el.namelanguage}</li><li className="spisok">{el.level}</li></div>
-        ) 
-}}
-)}
-
-renderData_5 =  () => {
-        return this.props.language.map((el, ind) => {
-        while (el.idMonth == 5){
-        return (
-        <div><li className="spisok">{el.startData}</li><li className="spisok">{el.namelanguage}</li><li className="spisok">{el.level}</li></div>
-        ) 
-}}
-)}
-
-renderData_6 =  () => {
-        return this.props.language.map((el, ind) => {
-        while (el.idMonth == 6){
-        return (
-        <div><li className="spisok">{el.startData}</li><li className="spisok">{el.namelanguage}</li><li className="spisok">{el.level}</li></div>
-        ) 
-}}
-)}
-
-renderData_7 =  () => {
-        return this.props.language.map((el, ind) => {
-        while (el.idMonth == 7){
-        return (
-        <div><li className="spisok">{el.startData}</li><li className="spisok">{el.namelanguage}</li><li className="spisok">{el.level}</li></div>
-        ) 
-}}
-)}
-
-
+                while (el.idMonth == i){
+                return (
+                     <div><li className="spisok">{el.startData}</li><li className="spisok">{el.namelanguage}</li><li className="spisok">{el.level}</li></div>
+                     ) 
+             }}
+        )}
 
 
 
@@ -197,7 +151,7 @@ console.log(this.getData);
                     <div className="rombiki_raspisanie_text">
                     <div className="yrok_raspisanie">
                      <ul className="raspisanie_spisok">
-                     {this.renderData_2()}
+                     {this.renderData(2)}
                      </ul></div>
                <div className="rombiki_raspisanie_mesiac">ФЕВРАЛЬ</div></div>
             </div>
@@ -208,7 +162,7 @@ console.log(this.getData);
                     <div className="rombiki_raspisanie_text">
                     <div className="yrok_raspisanie">
                      <ul className="raspisanie_spisok">
-                     {this.renderData_3()}
+                     {this.renderData(3)}
                      </ul></div>
                     <div className="rombiki_raspisanie_mesiac">МАРТ</div></div>
             </div> 
@@ -219,7 +173,7 @@ console.log(this.getData);
                     <div className="rombiki_raspisanie_text">
                     <div className="yrok_raspisanie">
                     <ul className="raspisanie_spisok">
-                     {this.renderData_4()}
+                     {this.renderData(4)}
                      </ul></div>
                     <div className="rombiki_raspisanie_mesiac">АПРЕЛЬ</div></div>
             </div> 
@@ -230,7 +184,7 @@ console.log(this.getData);
                     <div className="rombiki_raspisanie_text">
                     <div className="yrok_raspisanie">
                     <ul className="raspisanie_spisok">
-                     {this.renderData_5()}
+                    {this.renderData(5)}
                      </ul></div>
                     <div className="rombiki_raspisanie_mesiac">МАЙ</div></div>
             </div> 
@@ -241,7 +195,7 @@ console.log(this.getData);
                     <div className="rombiki_raspisanie_text">
                     <div className="yrok_raspisanie">
                     <ul className="raspisanie_spisok">
-                     {this.renderData_6()}
+                    {this.renderData(6)}
                      </ul></div>
                     <div className="rombiki_raspisanie_mesiac">ИЮНЬ</div></div>
             </div> 
@@ -252,7 +206,7 @@ console.log(this.getData);
                     <div className="rombiki_raspisanie_text">
                     <div className="yrok_raspisanie">
                     <ul className="raspisanie_spisok">
-                     {this.renderData_7()}
+                    {this.renderData(7)}
                      </ul></div>
                     <div className="rombiki_raspisanie_mesiac">ИЮЛЬ</div></div>
                     <div className="flex_zapisi">
